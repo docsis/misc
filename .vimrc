@@ -13,4 +13,8 @@ set smartindent
 map   <C-S>   :w <CR>
 map   <C-V>   "+gP
 
+map   <F2>   :bn <CR>
+map   <F3>   :bp <CR>
+
+
 
