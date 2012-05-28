@@ -1,0 +1,81 @@
+
+Rxvt*geometry: 80x40
+Rxvt*background: #000020
+Rxvt*foreground: #ffffbf
+!Rxvt*borderColor: Blue
+!Rxvt*scrollColor: Blue
+!Rxvt*troughColor: Gray
+!Rxvt*scrollBar: True
+!Rxvt*scrollBar_right: True
+!Rxvt*font: Fixedsys
+Rxvt*mfont: Terminal
+!Rxvt*SaveLines: 2000
+!Rxvt*loginShell: True
+! VIM-like colors
+!Rxvt*color0: #000000
+!Rxvt*color1: #FFFFFF
+!Rxvt*color2: #00A800
+!Rxvt*color3: #FFFF00
+Rxvt*color4: #7d7dff
+!Rxvt*color5: #A800A8
+!Rxvt*color6: #00A8A8
+!Rxvt*color7: #D8D8D8
+!Rxvt*color8: #000000
+!Rxvt*color9: #FFFFFF
+!Rxvt*color10: #00A800
+!Rxvt*color11: #FFFF00
+Rxvt*color12: #7d7dff
+!Rxvt*color13: #A800A8
+!Rxvt*color14: #00A8A8
+!Rxvt*color15: #D8D8D8
+
+
+
+Mrxvt*geometry: 80x40
+Mrxvt*background: #000020
+Mrxvt*foreground: #ffffbf
+!Mrxvt*borderColor: Blue
+!Mrxvt*scrollColor: Blue
+!Mrxvt*troughColor: Gray
+!Mrxvt*scrollBar: True
+!Mrxvt*scrollBar_right: True
+!Mrxvt*font: Fixedsys
+Mrxvt*mfont: Terminal
+!Mrxvt*SaveLines: 2000
+!Mrxvt*loginShell: True
+! VIM-like colors
+!Mrxvt*color0: #000000
+!Mrxvt*color1: #FFFFFF
+!Mrxvt*color2: #00A800
+!Mrxvt*color3: #FFFF00
+Mrxvt*color4: #7d7dff
+!Mrxvt*color5: #A800A8
+!Mrxvt*color6: #00A8A8
+!Mrxvt*color7: #D8D8D8
+!Mrxvt*color8: #000000
+!Mrxvt*color9: #FFFFFF
+!Mrxvt*color10: #00A800
+!Mrxvt*color11: #FFFF00
+Mrxvt*color12: #7d7dff
+!Mrxvt*color13: #A800A8
+!Mrxvt*color14: #00A8A8
+!Mrxvt*color15: #D8D8D8
+
+! eof 
+!URxvt.font:xft:Bitstream Vera Sans Mono:Bold:size=14, \
+!                                             xft:WenQuanYi Zen Hei:size=16, \
+!                                             9x15bold, \
+!                                             -misc-fixed-bold-r-normal--15-140-75-75-c-90-iso10646-1, \
+!                                             -misc-fixed-medium-r-normal--15-140-75-75-c-90-iso10646-1, \
+!                                             [codeset=JISX0208]xft:Kochi Gothic:antialias=false, \
+!                                             xft:Code2000:antialias=false
+!Rxvt.font:-b&h-lucidatypewriter-medium-r-normal-*-14-*-*-*-*-*-iso8859-*
+!Rxvt.mfont:-*-*-medium-r-normal-*-16-*-*-*-c-*-gb*-*
+!URxvt.font:xft:Monaco:size=10:antialias=true,xft:LiHei Pro:Bold:size=10:antialias=true
+!URxvt.boldFont:xft:Monaco:Bold:size=10:antialias=true,xft:LiHei Pro:Bold:size=10:antialias=t
+!URxvt.font:9x15bold,xft:Kochi Gothic
+!URxvt.font:9x15bold,xft:Bitstream Vera Sans Mono:size=14
+
+!URxvt.font: xft:Inconsolata-16,xft:WenQuanYi Zen Hei 
+URxvt.font: xft:Inconsolata-16,xft:WenQuanYi Zen Hei Mono
+!URxvt.font: xft:Inconsolata-16,xft:WenQuanYi Zen Hei Sharp
