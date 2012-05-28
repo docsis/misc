@@ -77,5 +77,5 @@ Mrxvt*color12: #7d7dff
 !URxvt.font:9x15bold,xft:Bitstream Vera Sans Mono:size=14
 
 !URxvt.font: xft:Inconsolata-16,xft:WenQuanYi Zen Hei 
-URxvt.font: xft:Inconsolata-16,xft:WenQuanYi Zen Hei Mono
+URxvt.font: xft:Inconsolata-10,xft:WenQuanYi Zen Hei Mono:size=10
 !URxvt.font: xft:Inconsolata-16,xft:WenQuanYi Zen Hei Sharp

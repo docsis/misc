@@ -9,9 +9,10 @@ set expandtab
 set incsearch
 set autoindent
 set smartindent
+colorscheme darkblue
 
 set showcmd
-set textwidth=80 "warp when more than 80 characters
+set textwidth=100 "warp when more than 80 characters
 set ruler
 set laststatus=2 "show status in bottom
 
@@ -41,5 +42,15 @@ map   <F2>   :bn <CR>
 map   <F3>   :bp <CR>
 map <F7> : Tlist<CR>
 
+"Toggle Menu and Toolbar
+set guioptions-=m
+set guioptions-=T
+map <silent> <F5> :if &guioptions =~# 'T' <Bar>
+        \set guioptions-=T <Bar>
+        \set guioptions-=m <bar>
+    \else <Bar>
+        \set guioptions+=T <Bar>
+        \set guioptions+=m <Bar>
+    \endif<CR>
 
 
