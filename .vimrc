@@ -25,6 +25,12 @@ set updatetime=1000
 
 "set fileencodings=utf-8,chinese
 "set encoding=utf-8
+" auto complete
+inoremap ( ()<LEFT>
+inoremap [ []<LEFT>
+inoremap { {}<LEFT>
+inoremap " ""<LEFT>
+
 
 function Maximize_Window()
   silent !wmctrl -r :ACTIVE: -b add,maximized_vert,maximized_horz
@@ -38,8 +44,8 @@ let Tlist_Exit_OnlyWindow=1
 map   <C-S>   :w <CR>
 map   <C-V>   "+gP
 
-map   <F2>   :bn <CR>
-map   <F3>   :bp <CR>
+map   <F3>   :bn <CR>
+map   <F2>   :bp <CR>
 map <F7> : Tlist<CR>
 
 "Toggle Menu and Toolbar
