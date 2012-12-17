@@ -1,3 +1,4 @@
+"set mouse=a
 set hls       "highlight search 
 set tabstop=4     "set the tab width to 4
 set shiftwidth=4
@@ -23,13 +24,15 @@ set autoread
 
 set updatetime=1000
 
-"set fileencodings=utf-8,chinese
-"set encoding=utf-8
+set fileencodings=utf-8,chinese
+set encoding=utf-8
+
 " auto complete
 inoremap ( ()<LEFT>
 inoremap [ []<LEFT>
 inoremap { {}<LEFT>
 inoremap " ""<LEFT>
+
 
 
 function Maximize_Window()
@@ -42,11 +45,18 @@ let Tlist_Exit_OnlyWindow=1
 
 
 map   <C-S>   :w <CR>
-map   <C-V>   "+gP
+"map   <C-V>   "+gP
 
-map   <F3>   :bn <CR>
-map   <F2>   :bp <CR>
-map <F7> : Tlist<CR>
+map <F3> :bn <CR>
+map <F2> :bp <CR>
+map <F6> :NERDTreeToggle <CR>
+map <F7> :Tlist<CR>
+
+map <C-l> <C-w>l 
+map <C-h> <C-w>h 
+map <C-k> <C-w>k 
+map <C-j> <C-w>j 
+
 
 "Toggle Menu and Toolbar
 set guioptions-=m
