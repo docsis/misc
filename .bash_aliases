@@ -1,9 +1,5 @@
 # .bashrc
 
-# Source global definitions
-if [ -f /etc/bashrc ]; then
-	. /etc/bashrc
-fi
 
 function mkdircd () { mkdir -p "$@" && eval cd "\"\$$#\""; }
 shopt -s cdspell
@@ -18,9 +14,9 @@ export PS1='`a=$?;if [[ $a -ne 0 ]]; then echo -ne "[\e[1;41m\u\e[m\e[1;32m"; el
 export PS2="continue-> "
 
 export SVN_EDITOR=vim
-export SVNROOT=svn://rdcm.ci-g.com/sw
+#export SVNROOT=svn://rdcm.ci-g.com/sw
 
-export LINUXS=/work3/yajwu/mnt/linuxs
+#export LINUXS=/work3/yajwu/mnt/linuxs
 
 # User specific aliases and functions
 alias la="ls -a | sort"
@@ -29,10 +25,10 @@ alias fin="find . -type f -name "
 alias gvim='gvim -c "call Maximize_Window()" ' 
 alias svndiff="svn diff | grep +++ "
 #alias linuxs="sudo mount.cifs -o username=CAMBRIDGEIG/wuyajun //172.20.1.61/linuxs /work3/yajwu/mnt/linuxs"
-alias buildload="sudo ./loadRelease.sh LOAD501 && cp fs/cramfs.img.crc "
+#alias buildload="sudo ./loadRelease.sh LOAD501 && cp fs/cramfs.img.crc "
 alias grep="grep --color=auto"
 alias egrep="egrep --color=auto"
-alias rdesk="rdesktop -u wuyajun -P 172.20.1.61 -g 1024x768"
+#alias rdesk="rdesktop -u wuyajun -P 172.20.1.61 -g 1024x768"
 
 alias ..="cd .."  
 alias ...="cd ../.."  
