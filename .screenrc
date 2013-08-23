@@ -1,0 +1,6 @@
+escape ^Xx
+bind ^k
+#bind L
+bind ^\
+
+vbell off
