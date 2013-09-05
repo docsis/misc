@@ -5,7 +5,8 @@
 ln -s  `pwd`/.vimrc ~/.vimrc
 ln -s  `pwd`/.vim ~/.vim
 
-cp .bash_aliases ~/
+rm ~/.bash_aliases
+ln -sf `pwd`/.bash_aliases ~/.bash_aliases
 
 [ -d ~/bin ] || mkdir ~/bin
 
