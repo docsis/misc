@@ -1,4 +1,5 @@
 "set mouse=a
+syntax on
 set hls       "highlight search 
 set tabstop=4     "set the tab width to 4
 set shiftwidth=4
@@ -6,7 +7,7 @@ set number
 set autoindent
 set wrap
 "set fileformats=unix,dos
-set expandtab
+"set expandtab
 set incsearch
 set autoindent
 set smartindent

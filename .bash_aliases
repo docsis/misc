@@ -29,6 +29,7 @@ alias svndiff="svn diff | grep +++ "
 alias grep="grep --color=auto"
 alias egrep="egrep --color=auto"
 #alias rdesk="rdesktop -u wuyajun -P 172.20.1.61 -g 1024x768"
+alias ll="ls -la"
 
 alias ..="cd .."  
 alias ...="cd ../.."  
