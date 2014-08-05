@@ -2,8 +2,9 @@
 
 [ -f ~/.vimrc ] &&  mv ~/.vimrc ~/.vimrc.bak
 [ -d ~/.vim ] && mv ~/.vim ~/.vim.bak
-ln -s  `pwd`/.vimrc ~/.vimrc
-ln -s  `pwd`/.vim ~/.vim
+ln -sf  `pwd`/.vimrc ~/.vimrc
+ln -sf  `pwd`/.vim ~/.vim
+ln -sf `pwd`/.gitconfig ~/.gitconfig
 
 rm ~/.bash_aliases
 ln -sf `pwd`/.bash_aliases ~/.bash_aliases
