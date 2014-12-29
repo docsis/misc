@@ -4,12 +4,11 @@ set hls       "highlight search
 set tabstop=4     "set the tab width to 4
 set shiftwidth=4
 set number
-set autoindent
+"set autoindent
 set wrap
 "set fileformats=unix,dos
 "set expandtab
 set incsearch
-set autoindent
 set smartindent
 colorscheme darkblue
 
@@ -31,10 +30,15 @@ set encoding=utf-8
 " auto complete
 inoremap ( ()<LEFT>
 inoremap [ []<LEFT>
-inoremap { {}<LEFT>
+inoremap ' ''<LEFT>
+inoremap { {<CR>}<LEFT><UP><ESC>o
 inoremap " ""<LEFT>
 
-
+if has("cscope")
+  if filereadable("cscope.out")
+      cs add cscope.out
+  endif
+endif
 
 function Maximize_Window()
   silent !wmctrl -r :ACTIVE: -b add,maximized_vert,maximized_horz
