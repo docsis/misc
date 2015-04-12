@@ -37,6 +37,12 @@ alias ....="cd ../../.."
 alias .....="cd ../../../.."  
 alias ......="cd ../../../../.."
 
+if [ `uname` == "Darwin" ]; then
+	export CLICOLOR=1
+	export TERM=xterm-color
+	export LSCOLORS=exfxcxdxbxegedabagacad
+fi
+
 export MARKPATH=$HOME/.marks
 function jump {
     cd -P "$MARKPATH/$1" 2>/dev/null || echo "No such mark: $1"

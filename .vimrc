@@ -28,6 +28,7 @@ set fileencodings=utf-8,chinese
 set encoding=utf-8
 
 " auto complete
+"inoremap < <><LEFT>
 inoremap ( ()<LEFT>
 inoremap [ []<LEFT>
 inoremap ' ''<LEFT>

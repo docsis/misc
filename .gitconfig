@@ -15,3 +15,13 @@
         type = cat-file -t
         dump = cat-file -p
 
+[user]
+	name = docsis
+	email = docsis.tt@gmail.com
+[push]
+	default = simple
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	ui = true
