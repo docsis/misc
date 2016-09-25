@@ -16,8 +16,6 @@
         dump = cat-file -p
 
 [user]
-	name = docsis
-	email = docsis.tt@gmail.com
 [push]
 	default = simple
 [color]

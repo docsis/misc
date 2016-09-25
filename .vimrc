@@ -26,6 +26,7 @@ set updatetime=1000
 
 set fileencodings=utf-8,chinese
 set encoding=utf-8
+set guifont=Monospace\ 12
 
 " auto complete
 "inoremap < <><LEFT>
