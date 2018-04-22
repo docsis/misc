@@ -25,7 +25,7 @@ alias egrep="egrep --color=auto"
 alias ll="ls -la --color=always"
 alias tree="tree --charset ascii"
 alias mrxvt='mrxvt -stt -sl 65535'
-alias vnc='vncserver -geometry 2500x1350'
+alias vnc='vncserver -geometry 1280x1024'
 
 
 alias ..="cd .."  

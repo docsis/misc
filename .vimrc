@@ -7,7 +7,7 @@ set number
 "set autoindent
 set wrap
 "set fileformats=unix,dos
-"set expandtab
+set expandtab
 set incsearch
 set smartindent
 colorscheme darkblue

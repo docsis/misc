@@ -15,7 +15,6 @@
         type = cat-file -t
         dump = cat-file -p
 
-[user]
 [push]
 	default = simple
 [color]
