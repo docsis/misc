@@ -15,10 +15,13 @@
         type = cat-file -t
         dump = cat-file -p
 
-[push]
-	default = simple
+#[push]
+#	default = simple
 [color]
 	diff = auto
 	status = auto
 	branch = auto
 	ui = true
+[user]
+	name = yajun
+	email = 2308524@qq.com
