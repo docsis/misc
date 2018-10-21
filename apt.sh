@@ -5,6 +5,7 @@ apt-get install sudo aptitude -y
 apt-get install gcc -y
 
 update-alternatives --config editor
+visudo
 
 gui () {
 apt-get install fonts-wqy-zenhei -y
